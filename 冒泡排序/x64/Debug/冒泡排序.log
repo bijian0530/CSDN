@@ -1,0 +1,4 @@
+﻿  test.c
+E:\vs 2019\gihub 仓库\CSDN\冒泡排序\test.c(70,10): warning C4477: “printf”: 格式字符串“%f”需要类型“double”的参数，但可变参数 1 拥有了类型“int”
+E:\vs 2019\gihub 仓库\CSDN\冒泡排序\test.c(64,1): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  冒泡排序.vcxproj -> E:\vs 2019\gihub 仓库\CSDN\冒泡排序\x64\Debug\冒泡排序.exe
