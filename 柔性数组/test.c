@@ -34,40 +34,48 @@
 //	ps = NULL;
 //}
 
+//
+//#include<stdio.h>
+//#include<stdlib.h>
+//
+//struct s
+//{
+//	int n;
+//	int* arr;
+//};
+//int main()
+//{
+//	struct s* ps = (struct s*)malloc(sizeof(struct s));
+//	ps->arr = malloc(5*sizeof(int));
+//	int i = 0;
+//	for (i = 0; i < 5; i++)
+//	{
+//		ps->arr[i] = i;
+//	}
+//	int* ptr = realloc(ps->arr,10*sizeof(int));
+//	if (ptr != NULL)
+//	{
+//		ps->arr = ptr;
+//	}
+//	for (i = 5; i < 10; i++)
+//	{
+//		ps->arr[i] = i;
+//	}
+//	for (i = 0; i < 10; i++)
+//	{
+//		printf("%d ",ps->arr[i]);
+//	}
+//	free(ps->arr);
+//	ps->arr = NULL;
+//	free(ps);
+//	ps = NULL;
+//	return 0;
+//}
 
-#include<stdio.h>
-#include<stdlib.h>
-
-struct s
-{
-	int n;
-	int* arr;
-};
+#include <stdio.h>
 int main()
 {
-	struct s* ps = (struct s*)malloc(sizeof(struct s));
-	ps->arr = malloc(5*sizeof(int));
-	int i = 0;
-	for (i = 0; i < 5; i++)
-	{
-		ps->arr[i] = i;
-	}
-	int* ptr = realloc(ps->arr,10*sizeof(int));
-	if (ptr != NULL)
-	{
-		ps->arr = ptr;
-	}
-	for (i = 5; i < 10; i++)
-	{
-		ps->arr[i] = i;
-	}
-	for (i = 0; i < 10; i++)
-	{
-		printf("%d ",ps->arr[i]);
-	}
-	free(ps->arr);
-	ps->arr = NULL;
-	free(ps);
-	ps = NULL;
-	return 0;
+    char str[] = "hello bit";
+    printf("%d %d\n", sizeof(str), strlen(str));
+    return 0;
 }

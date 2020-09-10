@@ -1,0 +1,6 @@
+﻿test.obj : error LNK2019: 无法解析的外部符号 _InitBoard，函数 _game 中引用了该符号
+test.obj : error LNK2019: 无法解析的外部符号 _DisplayBoard，函数 _game 中引用了该符号
+test.obj : error LNK2019: 无法解析的外部符号 _PlayerMove，函数 _game 中引用了该符号
+test.obj : error LNK2019: 无法解析的外部符号 _ComputerMove，函数 _game 中引用了该符号
+test.obj : error LNK2019: 无法解析的外部符号 _checkwin，函数 _game 中引用了该符号
+E:\vs 2019\gihub 仓库\CSDN\Board\Debug\Board.exe : fatal error LNK1120: 5 个无法解析的外部命令
